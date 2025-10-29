@@ -1,3 +1,5 @@
+'''Implement Page Rank Algorithm. (Use python or beautiful soup for implementation).'''
+
 import requests
 from bs4 import BeautifulSoup
 import numpy as np
@@ -52,3 +54,4 @@ for _ in range(num_iterations):
 print("\nFinal PageRank Scores:")
 for i, page in enumerate(page_list):
     print(f"{page}: {rank[i]:.4f}")
+
