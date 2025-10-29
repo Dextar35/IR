@@ -1,3 +1,5 @@
+'''2. Implement a program for retrieval of documents using inverted files.'''
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -34,4 +36,5 @@ else:
             exact_matches.append(doc_id)
 
     print ("Best Matches : ",best_matches)
+
     print ("Exact Matches : ",exact_matches)
