@@ -1,3 +1,5 @@
+'''3. Implement e-mail spam filtering using text classification algorithm with appropriate dataset.'''
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -35,4 +37,5 @@ email_spam_count = cv.transform(email_spam)
 model.predict(email_spam_count)
 
 x_test_count = cv.transform(X_test)
+
 model.score(x_test_count,y_test)
