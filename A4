@@ -1,3 +1,5 @@
+'''4. Implement Agglomerative hierarchical clustering algorithm using appropriate dataset.'''
+
 import pandas as pd 
 import scipy.cluster.hierarchy as sch
 import matplotlib.pyplot as plt
@@ -25,4 +27,5 @@ for cluster in range(n_clusters):
 plt.xlabel('Annual Income')
 plt.ylabel('Spending Score')
 plt.legend()
+
 plt.show()
