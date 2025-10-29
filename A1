@@ -1,3 +1,5 @@
+'''1. Write a program for pre-processing of a text document such as stop word removal, stemming. '''
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -44,4 +46,5 @@ for sentence in dataset:
     stemmed_dataset.append(stemmed_sentence)
 
 # Print the stemmed dataset
+
 print(stemmed_dataset)
